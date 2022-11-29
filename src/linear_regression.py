@@ -5,9 +5,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 def fit_line(x, y):
-    model = LinearRegression(fit_intercept=True)
-    model.fit(x[:, np.newaxis], y)
-    return (model.coef_[0], model.intercept_)
+    pass
 
 
 def main():
